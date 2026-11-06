@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080e20">
+  <meta name="description" content="Una transmisión especial está esperando a Arakho.">
+  <title>Arakho 22 ✦</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+  <div class="stars-background"></div>
+  <canvas id="particles"></canvas>
+
+  <!-- PANTALLA DE CUENTA REGRESIVA -->
+  <main id="countdown-screen" class="countdown-screen">
+
+    <div class="transmission-top">
+      <span class="system-indicator">
+        <span class="live-dot"></span>
+        SISTEMA ACTIVO
+      </span>
+      <span class="system-code">ARCHIVO N.º 028</span>
+    </div>
+
+    <section class="countdown-content">
+
+      <div class="orbit">
+        <div class="orbit-ring"></div>
+        <div class="orbit-ring orbit-ring-two"></div>
+        <div class="orbit-core">✦</div>
+      </div>
+
+      <p class="eyebrow">UNA TRANSMISIÓN ESPECIAL PARA</p>
+
+      <h1>ARAKHO<span class="gold">.</span></h1>
+
+      <p class="countdown-description">
+        Se ha detectado una anomalía en el sistema...
+        <br>
+        Parece que alguien está a punto de cumplir años.
+      </p>
+
+      <div class="countdown-label">
+        DESBLOQUEO PROGRAMADO
+      </div>
+
+      <div class="countdown-date">
+        28 <span>/</span> 11 <span>/</span> 2026
+      </div>
+
+      <div class="countdown-grid">
+
+        <div class="time-card">
+          <strong id="days">00</strong>
+          <span>DÍAS</span>
+        </div>
+
+        <div class="time-card">
+          <strong id="hours">00</strong>
+          <span>HORAS</span>
+        </div>
+
+        <div class="time-card">
+          <strong id="minutes">00</strong>
+          <span>MINUTOS</span>
+        </div>
+
+        <div class="time-card">
+          <strong id="seconds">00</strong>
+          <span>SEGUNDOS</span>
+        </div>
+
+      </div>
+
+      <div class="unlock-info">
+        <span class="unlock-icon">◈</span>
+        00:00 · HORARIO DE ARGENTINA
+      </div>
+
+      <div class="loading-line">
+        <div class="loading-progress"></div>
+      </div>
+
+      <p class="waiting-message" id="waiting-message">
+        Esperando autorización del universo...
+      </p>
+
+    </section>
+
+    <footer class="countdown-footer">
+      <span>TRANSMISIÓN CIFRADA</span>
+      <span>✦</span>
+      <span>PREPARADO POR PANDITA</span>
+    </footer>
+
+  </main>
+
+
+  <!-- TRANSICIÓN DE DESBLOQUEO -->
+  <section id="unlock-screen" class="unlock-screen hidden">
+    <div class="unlock-animation">
+      <div class="unlock-star">✦</div>
+      <p>ACCESO AUTORIZADO</p>
+      <h1>¡ES TU DÍA!</h1>
+      <span>Desbloqueando sorpresa...</span>
+    </div>
+  </section>
+
+
+  <!-- SITIO PRINCIPAL -->
+  <main id="birthday-site" class="birthday-site hidden">
+
+    <header class="main-header">
+      <a href="#" class="brand" data-screen="home">
+        <span class="brand-symbol">✦</span>
+        ARK<span>22</span>
+      </a>
+
+      <div class="header-status">
+        <span class="live-dot"></span>
+        TRANSMISIÓN COMPLETADA
+      </div>
+    </header>
+
+
+    <!-- INICIO -->
+    <section id="home" class="page-section active">
+
+      <div class="hero">
+
+        <div class="hero-decoration">✦</div>
+
+        <p class="eyebrow">MISIÓN ESPECIAL COMPLETADA</p>
+
+        <h1>HAPPY<br><span>LEVEL 22</span></h1>
+
+        <p class="hero-subtitle">
+          ¡Feliz cumpleaños, Arakho!
+        </p>
+
+        <p class="hero-description">
+          Has sobrevivido a otro año, a incontables dominios,
+          jefes imposibles y probablemente demasiadas horas de Genshin.
+          <br><br>
+          Hoy la misión es diferente. Esta vez, el protagonista eres tú.
+        </p>
+
+        <button class="primary-button" data-screen="stats">
+          INICIAR AVENTURA <span>→</span>
+        </button>
+
+        <div class="hero-bottom">
+          <span>28 NOVIEMBRE 2026</span>
+          <span>✦</span>
+          <span>UNA MISIÓN DE PANDITA</span>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ESTADÍSTICAS -->
+    <section id="stats" class="page-section">
+
+      <div class="section-heading">
+        <p class="eyebrow">REGISTRO DEL VIAJERO</p>
+        <h2>Tu historial <span>legendario.</span></h2>
+        <p>Algunos números que merecen reconocimiento.</p>
+      </div>
+
+      <div class="stats-grid">
+
+        <article class="stat-card">
+          <span class="stat-icon">✧</span>
+          <strong>60</strong>
+          <span>RANGO DE AVENTURA</span>
+          <small>Ya no eres precisamente un principiante.</small>
+        </article>
+
+        <article class="stat-card">
+          <span class="stat-icon">🏆</span>
+          <strong>1605</strong>
+          <span>LOGROS</span>
+          <small>¿Y todavía dices que no juegas tanto?</small>
+        </article>
+
+        <article class="stat-card">
+          <span class="stat-icon">♜</span>
+          <strong>10</strong>
+          <span>TEATRO IMAGINARIO</span>
+          <small>Acto completado.</small>
+        </article>
+
+        <article class="stat-card">
+          <span class="stat-icon">⚔</span>
+          <strong>273 s</strong>
+          <span>ASALTO ESTIGIO</span>
+          <small>El cronómetro también tiene miedo.</small>
+        </article>
+
+        <article class="stat-card">
+          <span class="stat-icon">✦</span>
+          <strong>12-3</strong>
+          <span>ABISMO ESPIRAL</span>
+          <small>Un pequeño paseo, supongo.</small>
+        </article>
+
+      </div>
+
+      <div class="character-panel">
+        <p class="eyebrow">PERSONAJES DESTACADOS</p>
+        <h3>Tu equipo de confianza</h3>
+
+        <div class="character-list">
+          <span>Kuki Shinobu <b>90</b></span>
+          <span>Skirk <b>90</b></span>
+          <span>Escoffier <b>90</b></span>
+          <span>Furina <b>90</b></span>
+          <span>Nahida <b>90</b></span>
+        </div>
+      </div>
+
+      <button class="secondary-button" data-screen="games">
+        CONTINUAR MISIÓN →
+      </button>
+
+    </section>
+
+
+    <!-- MINIJUEGOS -->
+    <section id="games" class="page-section">
+
+      <div class="section-heading">
+        <p class="eyebrow">EVENTO DE CUMPLEAÑOS</p>
+        <h2>Prueba tu <span>destreza.</span></h2>
+        <p>Tres desafíos. Un solo viajero. Sin excusas.</p>
+      </div>
+
+      <div class="game-selector">
+
+        <button class="game-tab active" data-game="runner">
+          <span>01</span>
+          SLIME RUN
+        </button>
+
+        <button class="game-tab" data-game="boss">
+          <span>02</span>
+          JEFE FINAL
+        </button>
+
+        <button class="game-tab" data-game="stars">
+          <span>03</span>
+          CAZA ESTELAR
+        </button>
+
+      </div>
+
+
+      <!-- JUEGO 1 -->
+      <div id="runner" class="game-panel active">
+
+        <div class="game-description">
+          <span class="game-number">DESAFÍO 01</span>
+          <h3>Slime Run</h3>
+          <p>Salta los obstáculos y sobrevive durante 15 segundos.</p>
+        </div>
+
+        <div class="runner-arena" id="runner-arena">
+          <div class="runner-score">TIEMPO: <span id="runner-time">15</span>s</div>
+          <div id="runner-player" class="runner-player">🐼</div>
+          <div class="runner-ground"></div>
+          <div id="runner-obstacle" class="runner-obstacle">🟣</div>
+          <div id="runner-overlay" class="game-overlay">
+            <h3>¿Listo para correr?</h3>
+            <button class="primary-button" id="runner-start">COMENZAR</button>
+          </div>
+        </div>
+
+        <button class="secondary-button jump-button" id="jump-button">
+          SALTAR ↑
+        </button>
+
+        <p class="game-feedback" id="runner-feedback">
+          Usa ESPACIO, ↑ o el botón para saltar.
+        </p>
+
+      </div>
+
+
+      <!-- JUEGO 2 -->
+      <div id="boss" class="game-panel">
+
+        <div class="game-description">
+          <span class="game-number">DESAFÍO 02</span>
+          <h3>El jefe final</h3>
+          <p>Encuentra el punto débil y consigue 8 impactos en 20 segundos.</p>
+        </div>
+
+        <div class="boss-arena" id="boss-arena">
+          <div class="boss-info">
+            <span>IMPACTOS</span>
+            <strong id="boss-score">0 / 8</strong>
+          </div>
+
+          <button id="boss-target" class="boss-target" aria-label="Atacar objetivo">
+            ✦
+          </button>
+
+          <div id="boss-overlay" class="game-overlay">
+            <h3>¿Te atreves?</h3>
+            <button class="primary-button" id="boss-start">INICIAR BATALLA</button>
+          </div>
+        </div>
+
+        <p class="game-feedback" id="boss-feedback">
+          Tiempo: <span id="boss-time">20</span> segundos.
+        </p>
+
+      </div>
+
+
+      <!-- JUEGO 3 -->
+      <div id="stars" class="game-panel">
+
+        <div class="game-description">
+          <span class="game-number">DESAFÍO 03</span>
+          <h3>Caza estelar</h3>
+          <p>Encuentra las 10 estrellas antes de que se termine el tiempo.</p>
+        </div>
+
+        <div class="stars-arena">
+          <div class="stars-info">
+            <span>ESTRELLAS: <strong id="stars-score">0 / 10</strong></span>
+            <span>TIEMPO: <strong id="stars-time">25</strong>s</span>
+          </div>
+
+          <div id="stars-grid" class="stars-grid"></div>
+
+          <div id="stars-overlay" class="game-overlay">
+            <h3>Una última prueba...</h3>
+            <button class="primary-button" id="stars-start">BUSCAR ESTRELLAS</button>
+          </div>
+        </div>
+
+        <p class="game-feedback" id="stars-feedback">
+          Toca las estrellas para recogerlas.
+        </p>
+
+      </div>
+
+
+      <div class="game-progress">
+        <span id="completed-count">0</span> / 3 DESAFÍOS COMPLETADOS
+      </div>
+
+      <button class="secondary-button" id="gift-button" disabled>
+        DESBLOQUEAR REGALO FINAL 🔒
+      </button>
+
+    </section>
+
+
+    <!-- REGALO FINAL -->
+    <section id="gift" class="page-section">
+
+      <div class="gift-content">
+
+        <div class="gift-symbol">🎁</div>
+
+        <p class="eyebrow">MISIÓN COMPLETADA</p>
+
+        <h2>¡Lo lograste,<br><span>Arakho!</span></h2>
+
+        <div class="final-message">
+          <p>
+            Feliz cumpleaños, Elias. Espero que este nuevo año
+            venga con muchas cosas buenas, nuevas aventuras y
+            motivos para disfrutar cada día.
+          </p>
+
+          <p>
+            Gracias por las partidas, por ayudarme con los jefes
+            y por esos momentos de caos en el multijugador.
+            Aunque a veces parezca que necesito más ayuda que
+            un personaje nivel 1, se aprecia bastante.
+          </p>
+
+          <p>
+            Espero que sigas consiguiendo logros, personajes
+            y muchas aventuras dentro y fuera de Teyvat.
+          </p>
+
+          <p class="final-signature">
+            — Pandita ✦
+          </p>
+        </div>
+
+        <div class="quote-card">
+          <span>✦ FRASE CÉLEBRE DEL CUMPLEAÑERO</span>
+          <blockquote>
+            “Sabiduría de ser un chocolate que lucha contra el calor”
+          </blockquote>
+          <small>— Arakho, probablemente en un momento de iluminación.</small>
+        </div>
+
+        <p class="final-footer">
+          FIN DE LA TRANSMISIÓN · FELICES 22
+        </p>
+
+        <button class="secondary-button" id="celebrate-button">
+          CELEBRAR OTRA VEZ ✦
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <nav class="bottom-nav">
+      <button data-screen="home" class="nav-button active">⌂ <span>INICIO</span></button>
+      <button data-screen="stats" class="nav-button">✧ <span>REGISTRO</span></button>
+      <button data-screen="games" class="nav-button">⚔ <span>JUEGOS</span></button>
+      <button data-screen="gift" class="nav-button">🎁 <span>REGALO</span></button>
+    </nav>
+
+  </main>
+
+</body>
+</html>
