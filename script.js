@@ -17,7 +17,7 @@ const countdownScreen = document.getElementById("countdown-screen");
 const unlockScreen = document.getElementById("unlock-screen");
 const birthdaySite = document.getElementById("birthday-site");
 
-let unlocked = false;
+let unlocked = true;
 let countdownInterval = null;
 
 
