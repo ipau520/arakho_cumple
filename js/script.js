@@ -5,21 +5,6 @@
 ========================================= */
 
 
-// Argentina: UTC-3.
-// 28 noviembre 2026, 00:00 Argentina = 03:00 UTC.
-const UNLOCK_DATE = MODO_PRUEBA
-  ? Date.now() + 10000
-  : Date.UTC(2026, 10, 28, 3, 0, 0);
-
-
-const countdownScreen = document.getElementById("countdown-screen");
-const unlockScreen = document.getElementById("unlock-screen");
-const birthdaySite = document.getElementById("birthday-site");
-
-let unlocked = true;
-let countdownInterval = null;
-
-
 // =========================================
 // 1. CUENTA REGRESIVA
 // =========================================
