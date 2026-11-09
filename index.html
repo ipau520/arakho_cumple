@@ -1,0 +1,453 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#080d1c">
+
+    <title>ARK 22 — Feliz cumpleaños</title>
+
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Orbitron:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- FONDO -->
+    <div class="space-bg">
+        <div class="glow"></div>
+        <div class="stars"></div>
+    </div>
+
+    <canvas id="particles"></canvas>
+
+    <main id="birthday-site">
+
+        <!-- HEADER -->
+        <header class="main-header">
+
+            <button class="brand" data-screen="home">
+                ✦ ARK<span>22</span>
+            </button>
+
+            <div class="header-status">
+                <i></i>
+                TRANSMISIÓN COMPLETADA
+            </div>
+
+        </header>
+
+
+        <!-- INICIO -->
+        <section id="home" class="page-section active">
+
+            <div class="hero">
+
+                <div class="hero-orbit">✦</div>
+
+                <p class="eyebrow">
+                    MISIÓN ESPECIAL ACTIVADA
+                </p>
+
+                <h1>
+                    HAPPY<br>
+                    <span>LEVEL 22</span>
+                </h1>
+
+                <p class="hero-subtitle">
+                    ¡Feliz cumpleaños, Arakho!
+                </p>
+
+                <p class="hero-description">
+                    Has sobrevivido a otro año, a incontables dominios,
+                    jefes imposibles y probablemente demasiadas horas de Genshin.
+
+                    <br><br>
+
+                    Hoy la misión es diferente.
+                    Esta vez, el protagonista eres tú.
+                </p>
+
+                <button class="primary-button" data-screen="stats">
+                    INICIAR AVENTURA <b>→</b>
+                </button>
+
+                <div class="hero-meta">
+                    <span>28 NOVIEMBRE 2026</span>
+                    <b>✦</b>
+                    <span>UNA MISIÓN DE PANDITA</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ESTADÍSTICAS -->
+        <section id="stats" class="page-section">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    REGISTRO DEL VIAJERO
+                </p>
+
+                <h2>
+                    Tu historial <span>legendario.</span>
+                </h2>
+
+                <p>
+                    El sistema ha revisado tus estadísticas.
+                    No te emociones demasiado.
+                </p>
+
+            </div>
+
+
+            <div class="stats-grid">
+
+                <article class="stat-card">
+                    <i>✧</i>
+                    <strong>60</strong>
+                    <label>RANGO DE AVENTURA</label>
+                    <small>
+                        AR60. Y todavía preguntas si ese artefacto sirve.
+                        Sospechoso.
+                    </small>
+                </article>
+
+
+                <article class="stat-card">
+                    <i>🏆</i>
+                    <strong>1605</strong>
+                    <label>LOGROS</label>
+                    <small>
+                        «Entro cinco minutos». Claro.
+                        Y yo soy la Arconte Pyro.
+                    </small>
+                </article>
+
+
+                <article class="stat-card">
+                    <i>♜</i>
+                    <strong>10</strong>
+                    <label>TEATRO IMAGINARIO</label>
+                    <small>
+                        Diez actos. La palabra “descanso”
+                        no está en tu diccionario.
+                    </small>
+                </article>
+
+
+                <article class="stat-card">
+                    <i>⚔</i>
+                    <strong>273 s</strong>
+                    <label>ASALTO ESTIGIO</label>
+                    <small>
+                        273 segundos. El jefe tuvo tiempo
+                        de replantearse su existencia.
+                    </small>
+                </article>
+
+
+                <article class="stat-card">
+                    <i>✦</i>
+                    <strong>12-3</strong>
+                    <label>ABISMO ESPIRAL</label>
+                    <small>
+                        12-3. Y seguro después dijiste:
+                        “estuvo fácil”.
+                    </small>
+                </article>
+
+            </div>
+
+
+            <!-- PERSONAJES -->
+            <div class="character-panel">
+
+                <p class="eyebrow">
+                    PERSONAJES DESTACADOS
+                </p>
+
+                <h3>Tu equipo de confianza</h3>
+
+                <div class="character-list">
+
+                    <span>Kuki Shinobu <b>90</b></span>
+                    <span>Skirk <b>90</b></span>
+                    <span>Escoffier <b>90</b></span>
+                    <span>Furina <b>90</b></span>
+                    <span>Nahida <b>90</b></span>
+
+                </div>
+
+                <p class="character-note">
+                    Cinco personajes al 90.
+                    Y aun así, el verdadero jefe eres tú cuando no respondes.
+                </p>
+
+            </div>
+
+
+            <button class="secondary-button" data-screen="challenge">
+                VER EL DESAFÍO →
+            </button>
+
+        </section>
+
+
+        <!-- DESAFÍO -->
+        <section id="challenge" class="page-section">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    EVENTO DE CUMPLEAÑOS · DESAFÍO ÚNICO
+                </p>
+
+                <h2>
+                    ¿Crees que puedes <span>con esto?</span>
+                </h2>
+
+                <p>
+                    Un jefe, ocho impactos y ninguna excusa.
+                    Esta vez no hay co-op.
+                </p>
+
+            </div>
+
+
+            <div class="boss-intro-card">
+
+                <label>
+                    AVISO DEL SISTEMA // 22.028
+                </label>
+
+                <p>
+                    Se ha detectado un viajero con 1605 logros.
+                    Procederemos a comprobar si sus reflejos
+                    funcionan fuera del Abismo.
+                </p>
+
+                <small>
+                    Nota: Pandita no puede revivirte durante este evento.
+                </small>
+
+            </div>
+
+
+            <!-- JEFE FINAL -->
+            <div class="boss-panel">
+
+                <div class="game-description">
+
+                    <label>JEFE FINAL · NIVEL 22</label>
+
+                    <h3>La prueba de los reflejos</h3>
+
+                    <p>
+                        Haz clic en el núcleo brillante
+                        <b>8 veces antes de que termine el tiempo</b>.
+
+                        Se moverá después de cada impacto.
+                        Fácil, ¿no? Eso dices siempre.
+                    </p>
+
+                </div>
+
+
+                <div class="boss-arena" id="boss-arena">
+
+                    <div class="arena-topline">
+
+                        <div>
+                            IMPACTOS
+                            <strong id="boss-score">0 / 8</strong>
+                        </div>
+
+                        <div>
+                            TIEMPO
+                            <strong id="boss-time">25</strong>
+                            <small>s</small>
+                        </div>
+
+                    </div>
+
+
+                    <div class="boss-health-track">
+                        <span id="boss-health-fill"></span>
+                    </div>
+
+
+                    <button
+                        id="boss-target"
+                        class="boss-target"
+                        aria-label="Atacar al núcleo"
+                        disabled
+                    >
+                        ✦
+                    </button>
+
+
+                    <!-- PANTALLA DEL JUEGO -->
+                    <div id="boss-overlay" class="game-overlay">
+
+                        <div class="overlay-symbol">✦</div>
+
+                        <h3>¿Listo para demostrarlo?</h3>
+
+                        <p>
+                            El jefe está esperando.
+                            No lo hagas esperar; tiene mejores cosas que hacer.
+                        </p>
+
+                        <button class="primary-button" id="boss-start">
+                            INICIAR BATALLA
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <p id="boss-feedback" class="game-feedback">
+                    Consejo: apunta rápido. No es una comisión diaria.
+                </p>
+
+                <div id="boss-taunt" class="boss-taunt">
+                    «AR60. Vamos a ver si sabes hacer clic». — Sistema
+                </div>
+
+            </div>
+
+
+            <div class="game-progress">
+                <span id="completed-count">0</span>
+                / 1 DESAFÍO COMPLETADO
+            </div>
+
+
+            <button
+                class="secondary-button"
+                id="gift-button"
+                disabled
+            >
+                EL REGALO SIGUE BLOQUEADO 🔒
+            </button>
+
+        </section>
+
+
+        <!-- REGALO FINAL -->
+        <section id="gift" class="page-section">
+
+            <div class="gift-content">
+
+                <div class="gift-symbol">🎁</div>
+
+                <p class="eyebrow">
+                    MISIÓN COMPLETADA
+                </p>
+
+                <h2>
+                    ¡Lo lograste,<br>
+                    <span>Arakho!</span>
+                </h2>
+
+
+                <div class="final-message">
+
+                    <p>
+                        Feliz cumpleaños, Elias.
+                        Espero que este nuevo año venga con muchas cosas buenas,
+                        nuevas aventuras y motivos para disfrutar cada día.
+                    </p>
+
+                    <p>
+                        Gracias por las partidas, por ayudarme con los jefes
+                        y por esos momentos de caos en el multijugador.
+                        Aunque a veces parezca que necesito más ayuda
+                        que un personaje nivel 1, se aprecia bastante.
+                    </p>
+
+                    <p>
+                        Espero que sigas consiguiendo logros,
+                        personajes y muchas aventuras dentro y fuera de Teyvat.
+                    </p>
+
+                    <p class="signature">
+                        — Pandita ✦
+                    </p>
+
+                </div>
+
+
+                <div class="quote-card">
+
+                    <label>
+                        ✦ FRASE CÉLEBRE DEL CUMPLEAÑERO
+                    </label>
+
+                    <blockquote>
+                        “Sabiduría de ser un chocolate que lucha contra el calor”
+                    </blockquote>
+
+                    <small>
+                        — Arakho, probablemente en un momento de iluminación.
+                    </small>
+
+                </div>
+
+
+                <p class="final-footer">
+                    FIN DE LA TRANSMISIÓN · FELICES 22
+                </p>
+
+
+                <button class="secondary-button" id="celebrate-button">
+                    CELEBRAR OTRA VEZ ✦
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- NAVEGACIÓN -->
+        <nav class="bottom-nav">
+
+            <button class="nav-button active" data-screen="home">
+                <span>⌂</span>
+                <small>INICIO</small>
+            </button>
+
+            <button class="nav-button" data-screen="stats">
+                <span>✧</span>
+                <small>REGISTRO</small>
+            </button>
+
+            <button class="nav-button" data-screen="challenge">
+                <span>⚔</span>
+                <small>DESAFÍO</small>
+            </button>
+
+            <button class="nav-button" data-screen="gift">
+                <span>🎁</span>
+                <small>REGALO</small>
+            </button>
+
+        </nav>
+
+    </main>
+
+</body>
+</html>
