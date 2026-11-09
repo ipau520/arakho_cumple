@@ -7,7 +7,7 @@
 // CAMBIA A true SOLO PARA PROBAR.
 // En true, se desbloquea después de 10 segundos.
 // Para publicar la web, déjalo en false.
-const MODO_PRUEBA = false;
+const MODO_PRUEBA = true;
 
 // Argentina: UTC-3.
 // 28 noviembre 2026, 00:00 Argentina = 03:00 UTC.
